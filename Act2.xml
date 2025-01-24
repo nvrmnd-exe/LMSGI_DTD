@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cataleg>
+    <llista_actors>
+        <actor id="A0001">
+            <nom>Lightning McQueen</nom>
+            <edat>18</edat>
+        </actor>
+        <actor id="A0002">
+            <nom>Sally Carrera</nom>
+            <edat>25</edat>
+        </actor>
+        <actor id="A0003">
+            <nom>Tow Mater</nom>
+            <edat>30</edat>
+        </actor>
+    </llista_actors>
+    <llista_pelicules>
+        <pelicula id="P0001">
+            <titol idioma="anglès">Cars</titol>
+            <director>John Lasseter</director>
+            <any>2006</any>
+            <actors>
+                <actor_ref id="A0001"/>
+                <actor_ref id="A0002"/>
+                <actor_ref id="A0003"/>
+            </actors>
+        </pelicula>
+        <pelicula id="P0002">
+            <titol idioma="anglès">Cars 2</titol>
+            <director>Brian Fee</director>
+            <any>2017</any>
+            <actors>
+                <actor_ref id="A0001"/>
+                <actor_ref id="A0002"/>
+                <actor_ref id="A0003"/>
+            </actors>
+        </pelicula>
+        <pelicula id="P0003">
+            <titol idioma="anglès">Cars</titol>
+            <director>John Lasseter</director>
+            <any>2006</any>
+            <actors>
+                <actor_ref id="A0001"/>
+                <actor_ref id="A0002"/>
+                <actor_ref id="A0003"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules>
+        <recomanacio id="P0001"/>
+        <recomanacio id="P0002"/>
+        <recomanacio id="P0003"/>
+    </llista_recomanacions_pelicules>
+</cataleg>
